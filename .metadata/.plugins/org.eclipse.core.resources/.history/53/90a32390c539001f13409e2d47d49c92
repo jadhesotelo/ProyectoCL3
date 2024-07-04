@@ -1,0 +1,6 @@
+package com.bd.basico.servicio;
+
+public class ClassProductoImp implements IProductoServicio{
+@Autowired
+private IProductoRepositorio iproductorepository;
+}

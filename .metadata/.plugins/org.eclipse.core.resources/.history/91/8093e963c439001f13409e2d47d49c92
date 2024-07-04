@@ -1,0 +1,9 @@
+package com.bd.basico.repositorio;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.bd.basico.modelo.*;
+
+public interface IClienteRepositorio extends CrudRepository<TblProductocl3,Integer>{
+
+}

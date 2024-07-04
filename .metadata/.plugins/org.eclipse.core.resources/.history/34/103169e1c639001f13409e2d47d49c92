@@ -1,0 +1,7 @@
+package com.bd.basico.controlador;
+
+@Controller
+@RequestMappig("/vistas")
+public class ProductoController {
+
+}

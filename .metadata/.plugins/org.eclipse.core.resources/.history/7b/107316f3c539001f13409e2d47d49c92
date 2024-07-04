@@ -1,0 +1,11 @@
+package com.bd.basico.servicio;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bd.basico.modelo.TblProductocl3;
+import com.bd.basico.repositorio.IProductoRepositorio;
+
+public class ClassProductoImp implements IProductoServicio{
+@Autowired
+private IProductoRepositorio iproductorepository;
+}

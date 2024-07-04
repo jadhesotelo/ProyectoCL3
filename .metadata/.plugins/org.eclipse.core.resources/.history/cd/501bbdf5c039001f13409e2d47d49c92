@@ -1,0 +1,9 @@
+package com.bd.basico.controlador;
+
+@Controller
+public class MensajeControlador {
+
+	public String mensaje() {
+		return "mensaje";
+	}
+}//FIN
